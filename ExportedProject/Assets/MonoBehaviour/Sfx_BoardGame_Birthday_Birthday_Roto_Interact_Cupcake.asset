@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_BoardGame_Birthday_Birthday_Roto_Interact_Cupcake
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: fe9e7fc130c977f4fbda781ed9f6c2a6, type: 2}
+  guid: 416e4cbef80db4d28b97defff2e80551
+  name: Birthday_Roto_Interact_Cupcake
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: b7666b384076843f983a23fa895c1e40
+      mixGroup: {fileID: 24300012, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: c211686cdc7dc4abbaa0fb2240f70b18
+      mixGroup: {fileID: 24300012, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterOmnom_Eyes_Material
+  m_Shader: {fileID: 4800000, guid: 672ee52153a4dc947811664f9ec1d25c, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties:
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+      _Eye:
+        m_Texture: {fileID: 2800000, guid: 846452b9f59cd3d4fa0dd1b773fdf088, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _EyeSpecular:
+        m_Texture: {fileID: 2800000, guid: a902e79a1f88dbb4abeafdcd40252ee3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      _Matcap:
+        m_Texture: {fileID: 2800000, guid: 985216f4c5edbb947b127085b2ad216b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+      unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: {}
+    m_Floats:
+      Vector1_3FD12FBC: 0.44
+      Vector1_FC1BDD0E: 0.25
+      _AlphaClip: 0
+      _Blend: 0
+      _BumpScale: 1
+      _Cull: 2
+      _Cutoff: 0.5
+      _DstBlend: 0
+      _EnvironmentReflections: 1
+      _GlossMapScale: 0
+      _Glossiness: 0.5
+      _GlossyReflections: 0
+      _Metallic: 0
+      _OcclusionStrength: 1
+      _OpenEyes: 0.878
+      _PupilMaxSize: 0.5
+      _PupilMinSize: 0.25
+      _PupilSize: 0.25
+      _QueueControl: 0
+      _QueueOffset: 0
+      _ReceiveShadows: 1
+      _Rotation: 0
+      _Smoothness: 0.5
+      _SmoothnessTextureChannel: 0
+      _SpecularHighlights: 1
+      _SrcBlend: 1
+      _Surface: 0
+      _WorkflowMode: 1
+      _ZWrite: 1
+    m_Colors:
+      Vector2_715F7766: {r: -0.06, g: -0.15, b: 0, a: 0}
+      Vector4_BEF359C6: {r: 2.37, g: 0, b: 0, a: 0}
+      _BaseColor: {r: 0.8443396, g: 0.8971059, b: 1, a: 1}
+      _Color: {r: 1, g: 1, b: 1, a: 1}
+      _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+      _FresnelColor: {r: 5.656854, g: 5.656854, b: 5.656854, a: 1}
+      _IrisColor: {r: 0, g: 0.37785643, b: 0.880129, a: 1}
+      _MatcapBColor: {r: 0.262512, g: 0.33781695, b: 0.40037802, a: 1}
+      _MatcapGColor: {r: 0, g: 0, b: 0, a: 1}
+      _MatcapRColor: {r: 0, g: 0, b: 0, a: 1}
+      _OffsetLimits: {r: -0.18, g: 0.18, b: -30, a: 2}
+      _PupilOffset: {r: -0.175, g: -0.4, b: 0, a: 0}
+      _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+      _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+      _ViewTarget: {r: 0.62, g: -0.021587584, b: 0.8247251, a: 1.9918859}
+      _ViewTargetLeft: {r: -0.6418482, g: -0.07619975, b: 1.459359, a: 0.4455885}
+      _ViewTargetRight: {r: 0.7332656, g: -0.06621566, b: 1.459359, a: 0.5127743}
+  m_BuildTextureStacks: []

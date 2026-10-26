@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Circus_Circus_7
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 49df95ce79daf464d9c87908ce123461, type: 2}
+  guid: c5a81752fe91e5b43aac400c3cb81608
+  name: Circus_7
+  displayInMenu: 1
+  scene:
+    guid: 5072bde1be7054b439fa05c763d29d88
+  displayName: 7
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 0
+  fruitsOverride: {fileID: 0}
+  targetStarCollectedCount: 0
+  targetScores:
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 02d910b4f729a4a46957f7b3726f2f6d, type: 2}
+  characterType: {fileID: 11400000, guid: 805a709bd3a8b174c8f5f6a36c4228a5, type: 2}
+  candyType: {fileID: 11400000, guid: 16c1df6a98b85ed4580fe7985eddcb8b, type: 2}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: fd7937187150fc14b803fa15894d5c46, type: 2}
+  levelCompleteWindowOutfit: -1
+  characterOutfitOverride: -1
+  slopeMaterialOverride: {fileID: 2100000, guid: 6e6969c9fb593c240a3e7011d37c0092, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: 4d7d1a444c1e7c5419447d43c95f9ed8, type: 2}
+  isMiniStoryLevel: 1
+  miniStoryTileIndex: 7
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: d2bf8819ee2667243b8b06594ac2d509, type: 2}

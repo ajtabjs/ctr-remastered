@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1436431305, guid: eca648c7a3410519a02db7bd8ec4a4a6, type: 3}
+  m_Name: ChapterSelect
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: cf0bbd45fab4cdf4ba9c4f17f6375ad5, type: 2}
+  guid: e964429bf6d20624eae6b755d7b445f5
+  name: ChapterSelect
+  prefab:
+    guid: a4429f03772315c4b92abeeeb87c74ff
+  windowsForPlatforms:
+  - prefab:
+      guid: 9fdd1568814691d419aadaf9621a9c67
+    platform: 31
+  - prefab:
+      guid: 91b533408f3af3d4f8c96e664e1dec68
+    platform: 8

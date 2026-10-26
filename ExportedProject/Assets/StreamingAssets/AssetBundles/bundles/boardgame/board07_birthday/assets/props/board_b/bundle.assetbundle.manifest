@@ -1,0 +1,90 @@
+ManifestFileVersion: 0
+CRC: 1647116481
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a2cfcbbcae2e332ea66b08c843efc705
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 66e8b7c5cadaccee12765d4d053a98fc
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: a2cfcbbcae2e332ea66b08c843efc705
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90e22dc50be7450f921fac0742be75b7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45cfee7598356b444b8afa73111a1fdb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a05ca8a848434b009ae4fef49e6a136c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 828efcfdf01e4b5f82e1a7d281a7a7d9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f7444af08b924bc3874db44380d34fd2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Framework-Audio
+  ClassName: Paladin.Framework.Audio.Runtime.AudioPlayable
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.CTR.Systems.Animations.Easing.CustomEase
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.CTR.Systems.Animations.SerializedTweens.SerializedTween
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.CTR._CutTheRope_.Systems.BoardGame.Props.PropAnimatorOptimizer/OptimizationType
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.CTR._CutTheRope_.Systems.BoardGame.Props.PropInteractable/SerializedTweenWrapper
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.CTR._CutTheRope_.Systems.BoardGame.Props.PropInteractable/SoundFx
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableOneShotReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/GameObjectReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/ParticleReference
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/ParticleReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/PowerUpCollectTriggerReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/UnityEventReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/WorldStarTriggerReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Project.Utilities.PropertyWrapper`1[System.Collections.Generic.List`1[Paladin.CTR._CutTheRope_.Systems.BoardGame.Props.PropInteractable/SerializedTweenWrapper]]
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Project.Utilities.PropertyWrapper`1[System.Collections.Generic.List`1[UnityEngine.Vector2]]
+Assets:
+- Assets/[CutTheRope]/Bundles/BoardGame/Board07_Birthday/Assets/Props/Board_B/BoardBirthday_BackdropB.prefab
+- Assets/[CutTheRope]/Bundles/BoardGame/Board07_Birthday/Assets/Props/Board_B/BoardBirthday_StrawberryA.prefab
+- Assets/[CutTheRope]/Bundles/BoardGame/Board07_Birthday/Assets/Props/Board_B/BoardBirthday_EatingBerry.prefab
+- Assets/[CutTheRope]/Bundles/BoardGame/Board07_Birthday/Assets/Props/Board_B/BoardBirthday_Blueberry.prefab
+Dependencies:
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/boardgame/board07_birthday/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/gameplay/star/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/database/bundle

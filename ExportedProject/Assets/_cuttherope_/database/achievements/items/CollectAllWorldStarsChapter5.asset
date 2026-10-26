@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -73250415, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: CollectAllWorldStarsChapter5
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: f762aeef428c98f4684771b85d1aa18b, type: 2}
+  guid: 4e4d7d7fe782abe419414e411334f0a2
+  name: CollectAllWorldStarsChapter5
+  id: grp.paladin.ctr.achievement.collectallworldstarsbook5
+  requiresSaving: 0
+  enableDebugLogs: 1
+  allLevels: 0
+  requiresRegularStars: 0
+  requiresPowerStar: 0
+  requiresWorldStar: 1
+  canUsePowerUp: 1
+  levelMetas:
+  - {fileID: 11400000, guid: c659665e317139e4aa67d40d6148b76e, type: 2}
+  - {fileID: 11400000, guid: b5398d7b888b62c4f898e8d64156a794, type: 2}
+  - {fileID: 11400000, guid: 628770558d717494983ebb22a3ee5b80, type: 2}
+  - {fileID: 11400000, guid: aa52c5ff8a1ed6f4ebcda97cc8ceb083, type: 2}
+  - {fileID: 11400000, guid: 7bf25a99895261f4a903d27ae2815a15, type: 2}
+  - {fileID: 11400000, guid: 64fb833933bb2894586d47d3122dd814, type: 2}
+  regularStarsToCollect: 0

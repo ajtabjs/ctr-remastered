@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1428621039, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Space
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 7a59595b7e0a23c45ab7666ddf5ee3f1, type: 2}
+  guid: 375f11b9ec7be2d47bf9539966a17f2c
+  name: Space
+  activationDate:
+    day: 1
+    month: 3
+    hour: 0
+  boardGameType: {fileID: 11400000, guid: ed4dc3b38eafbfb44af900df49229275, type: 2}
+  themeIcon:
+    guid: f592d4fe4ee9d6347b233a09d187e7b2
+  profileBanner:
+    guid: ed4ce22e63ac51440a506ab9d2271edd
+  loadingScreenTexture:
+    guid: 341e58a0df97145d3a436ad321ed901c
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  whatsNewImage:
+    guid: a10d485d7282b4094a73b1421c839cac
+  homeBackground: {fileID: 11400000, guid: fd39ac621b6743342aefe6fa7026b8c3, type: 2}
+  enableHomeParticlesBackground: 1
+  homeParticlesBackground:
+    guid: 1ceb8ca4bd1f8554eb591897c04443cd
+  homeParticles:
+    guid: 8c1d6a4a5ada69e4882ffa1d3212f94f
+  activeMiniStory: {fileID: 11400000, guid: 3024f671238f06248a5905bd4f8ff9da, type: 2}

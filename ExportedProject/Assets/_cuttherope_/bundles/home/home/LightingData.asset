@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1120 &112000000
+LightingDataAsset:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LightingData
+  m_Scene: {fileID: 102900000, guid: 32108548f9fe4ba468ae12d5abf11ae8, type: 3}
+  m_Lightmaps:
+  - serializedVersion: 2
+    m_Lightmap: {fileID: 2800000, guid: 89af3d3d00255984ea6a1cd4edaa4243, type: 2}
+    m_DirLightmap: {fileID: 2800000, guid: 155c48634a0ba3a46aff63965dc311ec, type: 2}
+    m_ShadowMask: {fileID: 0}
+  m_AOTextures: []
+  m_LightmapsCacheFiles: []
+  m_LightProbes: {fileID: 25800000, guid: 071e67e6e2dbf65438805d844c93fcb3, type: 2}
+  m_LightmapsMode: 1
+  m_BakedAmbientProbeInLinear:
+    sh[ 0]: 0.08069966
+    sh[ 1]: -0.00031489794
+    sh[ 2]: 0
+    sh[ 3]: -0.00010671816
+    sh[ 4]: 0
+    sh[ 5]: 0.00026522807
+    sh[ 6]: 6.7055225E-08
+    sh[ 7]: 0
+    sh[ 8]: 4.955715E-05
+    sh[ 9]: 0.32304236
+    sh[10]: 0.0017920877
+    sh[11]: 0
+    sh[12]: 0.00060726865
+    sh[13]: 0
+    sh[14]: -0.0015099518
+    sh[15]: -1.8626451E-07
+    sh[16]: 0
+    sh[17]: -0.00028208154
+    sh[18]: 2.1613524
+    sh[19]: -0.01021183
+    sh[20]: 0
+    sh[21]: -0.003462822
+    sh[22]: 0
+    sh[23]: 0.008601752
+    sh[24]: 1.5646219E-06
+    sh[25]: 0
+    sh[26]: 0.0016060884
+  m_LightmappedRendererData: []
+  m_LightmappedRendererDataIDs: []
+  m_EnlightenSceneMapping:
+    m_Renderers: []
+    m_Systems: []
+    m_Probesets: []
+    m_SystemAtlases: []
+    m_TerrainChunks: []
+  m_EnlightenSceneMappingRendererIDs: []
+  m_Lights:
+  - targetObject: 30
+    targetPrefab: 0
+  - targetObject: 31
+    targetPrefab: 0
+  m_LightBakingOutputs:
+  - serializedVersion: 2
+    probeOcclusionLightIndex: 0
+    occlusionMaskChannel: -1
+    lightmapBakeMode:
+      lightmapBakeType: 2
+      mixedLightingMode: 2
+    isBaked: 1
+  - serializedVersion: 2
+    probeOcclusionLightIndex: -1
+    occlusionMaskChannel: -1
+    lightmapBakeMode:
+      lightmapBakeType: 4
+      mixedLightingMode: 2
+    isBaked: 0
+  m_BakedReflectionProbeCubemapCacheFiles: []
+  m_BakedReflectionProbeCubemaps:
+  - {fileID: 8900000, guid: 3688b9fecf53f804d94723566ad468e5, type: 3}
+  m_BakedReflectionProbes: []
+  m_EnlightenData: 556e69747946530000000008352e782e7800323032322e332e3131663100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  m_EnlightenDataVersion: 112

@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 50618682377417806}
+  - component: {fileID: 114703437598541787}
+  - component: {fileID: 114884547391421755}
+  - component: {fileID: 114099118695303065}
+  m_Layer: 0
+  m_Name: Gameplay_Star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2340295, y: 1.011744, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1182265864, guid: 79e15346e19070d0e3fb820a220178ef, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  propertyEntries:
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: pathType
+    hidden: 0
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: movementSpeed
+    hidden: 0
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: pathPoints
+    hidden: 0
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: cyclePath
+    hidden: 0
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: rotationDirection
+    hidden: 0
+  - type: 1
+    displayName:
+    property:
+      target: {fileID: 114099118695303065}
+      path: rotationRadius
+    hidden: 0
+  drawEntries: []
+--- !u!50 &50618682377417806
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -465970149, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  physicsConfiguration: {fileID: 11400000, guid: f35bca3000125e34abaacd1da2270588, type: 2}
+  rigidbody2D: {fileID: 50618682377417806}
+  collider: {fileID: 0}
+  overrideBodyType: 1
+  triggerType: 1
+  triggerRadius: 0.16
+  starType: 0
+  starCollectionAudio:
+  - audioPlayableKey: {fileID: 11400000, guid: 9eb07164d293099418ef27c3066c3483, type: 2}
+  - audioPlayableKey: {fileID: 11400000, guid: 06fc213298e6fef41aa16531bc11daf5, type: 2}
+  - audioPlayableKey: {fileID: 11400000, guid: 64d560fd3fe9a7d46b7c73e90deb5fc7, type: 2}
+  powerStarCollectionAudio:
+    audioPlayableKey: {fileID: 11400000, guid: 167bb2586a7035a4690130c9eb7f64f7, type: 2}
+  worldStarCollectionAudio:
+    audioPlayableKey: {fileID: 11400000, guid: daf200feaa08566419502b0fa8853126, type: 2}
+  animator: {fileID: 0}
+  vfxCatch: {fileID: 0}
+  vfxCallToAction: {fileID: 0}
+  worldstarHolderPrefab:
+    guid: f4b41c561f760e74b94b067ab7689112
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1342780216, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  snapZToZero: 1
+--- !u!114 &114099118695303065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2006130780, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pathType: 2
+  movementSpeed: 0
+  pathPoints:
+    points: []
+  rotationDirection: 0
+  rotationRadius: 0
+  cyclePath: 0
+  startOffset: 0
+  pointSprite: {fileID: 0}
+  pointSpriteOffset: {x: 0, y: 0}

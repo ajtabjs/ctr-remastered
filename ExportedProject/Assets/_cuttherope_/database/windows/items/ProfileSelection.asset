@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1436431305, guid: eca648c7a3410519a02db7bd8ec4a4a6, type: 3}
+  m_Name: ProfileSelection
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 98199cab97696bd49b3cdbcd66d8a00d, type: 2}
+  guid: 7093d4d551d52754e84a17013c32a8a4
+  name: ProfileSelection
+  prefab:
+    guid: 1bb0f8a7197fed54da0bd8915535dabe
+  windowsForPlatforms:
+  - prefab:
+      guid: d1d335b3d55ffc344b52b4f3b161ea6e
+    platform: 31
+  - prefab:
+      guid: 5d307338b2495474b9524e7743c6b531
+    platform: 8

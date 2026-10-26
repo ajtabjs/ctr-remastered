@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -971826878, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: NewThemeNotificationScheduler
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 50ede094857fded4c87a091256fd02ac, type: 2}
+  guid: 9372ce2ffd6e64a49a035409bb9775ca
+  name: NewThemeNotificationScheduler
+  isActive: 1
+  useSerializedPriority: 1
+  priority: 16
+  useSerializedDates: 0
+  useDefaultTimeSchedules: 1
+  timeSchedules:
+    value: []
+  useSerializedFormats: 1
+  titleFormat: Themes.Notification.Generic.Title
+  descriptionFormat: Themes.Notification.Generic.Description
+  notificationData: theme
+  category: themes

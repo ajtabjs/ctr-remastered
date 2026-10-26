@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_UI_sfx_UI_WM_Level_Node_Omnelle_Tap
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 102abcc1b2da39941935cdaaaaea4b9d, type: 2}
+  guid: 78a8f40a4746cb446a606095ab5025e8
+  name: sfx_UI_WM_Level_Node_Omnelle_Tap
+  audioPlayableData:
+    playType: 0
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 2ec7cc8a656a2fa4981a1e1def898daf
+      mixGroup: {fileID: 24300044, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1.5
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

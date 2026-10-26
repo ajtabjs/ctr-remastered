@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -202006698, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Adventure
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 2054e0aadc6a51d468f1eb476c0c1c4c, type: 2}
+  guid: 0333457ba29ff49f9b9210edeb1e1190
+  name: Adventure
+  scene:
+    guid: bdd0fe7d1bfabd94e9a81e4545eea5b6
+  notificationName: Adventure
+  specialLevelPrefix: SpecialLevel.Adventure.BoardGameLevel
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: fa9e5c66a645a66409822c2a7ad3d84e, type: 2}
+  backgroundSetting: {fileID: 11400000, guid: a9378dff4b7841641939aab887a6b839, type: 2}

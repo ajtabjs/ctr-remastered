@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 676500931, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Friends
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: d47acf49179e2e546a751afecbcc86ed, type: 2}
+  guid: 94c12438b8996c341ac3992ef3971758
+  name: MiniStory_Friends
+  isActive: 1
+  debugOnly: 0
+  displayInTweakPanel: 1
+  levelEnvironment: {fileID: 11400000, guid: d37e207956db48548a40397c349e7e80, type: 2}
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: c82338c4f42552848b304bc4fff4e5e7, type: 2}
+  colorTheme: {fileID: 11400000, guid: a7dcb2fd3f6f1bf4b8b3021fa4d1017b, type: 2}
+  loadingScreenTexture:
+    guid: 34ae14cf832114be0bcfcf3a4c786a62
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  backgroundSetting: {fileID: 11400000, guid: 540315f5073e4d24b86e58f2862c5e53, type: 2}
+  diorama:
+    guid: 405b142e454e3f3439a16e3c4920e0a9
+  numericalOrder: -1
+  displayNameTerm: MiniStory.02.Title
+  storyPictureNameTerm: MiniStory.02.PictureTitle
+  levelNameTerm: MiniStory.02.LevelUI.StoryLevel
+  lastPlayedLevelNameTerm: MiniStory.02.Profile.LastPlayedStory
+  deepLinkId: friends
+  storySetImage:
+    guid: bda2b06808fbf82448c4dc0067bad161
+  storyStampSprite:
+    guid: 574923360f201c34ea7d10f568b4a952
+  piecesSetPrefab:
+    guid: f837d535a50dfb64189b37af1b3f79ad
+  uiParticlesPrefab:
+    guid:
+  notificationCategoryKey: friends

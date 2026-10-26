@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 676500931, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Summer
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: d47acf49179e2e546a751afecbcc86ed, type: 2}
+  guid: 1685e326fcd0ac144a5ec8367b4ed994
+  name: MiniStory_Summer
+  isActive: 1
+  debugOnly: 0
+  displayInTweakPanel: 1
+  levelEnvironment: {fileID: 11400000, guid: e15542574a1d6ae47b3e38e221dd84b5, type: 2}
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: c82338c4f42552848b304bc4fff4e5e7, type: 2}
+  colorTheme: {fileID: 11400000, guid: c537cc8b322579347800e5ee8d3cb731, type: 2}
+  loadingScreenTexture:
+    guid: 34ae14cf832114be0bcfcf3a4c786a62
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  backgroundSetting: {fileID: 11400000, guid: a63fad15de3ae184ba3cb688c11f021d, type: 2}
+  diorama:
+    guid: 405b142e454e3f3439a16e3c4920e0a9
+  numericalOrder: -1
+  displayNameTerm: MiniStory.07.Title
+  storyPictureNameTerm:
+  levelNameTerm: MiniStory.07.LevelUI.StoryLevel
+  lastPlayedLevelNameTerm: MiniStory.07.Profile.LastPlayedStory
+  deepLinkId: summer
+  storySetImage:
+    guid: 86314660e764ca7448aeac77055e7f4e
+  storyStampSprite:
+    guid: bfca65bd000b11e45a1b4fc27c5fb64d
+  piecesSetPrefab:
+    guid: f837d535a50dfb64189b37af1b3f79ad
+  uiParticlesPrefab:
+    guid:
+  notificationCategoryKey: summer

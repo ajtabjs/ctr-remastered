@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1610794030, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: PowerUpEconomyConfig
+  m_EditorClassIdentifier:
+  powerUpPopupPrefab:
+    guid: a6ae59c998782ce4d94eb20f71e6d271
+  worldStarPopupPrefab:
+    guid: 7a6c4a4cc290e894eacc720d02a8304d
+  startingValues:
+  - powerUpType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+    amount: 3
+  - powerUpType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+    amount: 3
+  - powerUpType: {fileID: 11400000, guid: 3d5001e47978c134bae9df08ac93efdd, type: 2}
+    amount: 3
+  maxRewardCount: 99
+  totalSessionDropCount: 10
+  powerUpPopulationCount: 3
+  sessionLength:
+    ticks: 3000000000
+    displayMode: 3
+  dropTable:
+  - powerUpType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+    weight: 5
+  - powerUpType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+    weight: 2
+  - powerUpType: {fileID: 11400000, guid: 3d5001e47978c134bae9df08ac93efdd, type: 2}
+    weight: 3

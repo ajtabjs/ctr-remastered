@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_Worldmap01_WM01_S06_Tub_end
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 55cb2748c8b74144bb367b426bb93b1f, type: 2}
+  guid: ac2293fd5b0888841bc1334eaf28be83
+  name: WM01_S06_Tub_end
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: fec009d269bddf74fb521e5a7870f280
+      mixGroup: {fileID: 24300020, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 1942c0bdf70122d4fa5b4b576c15fd9e
+      mixGroup: {fileID: 24300020, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_BoardGame_Christmas_Christmas_TreeShake
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: b37f5613c78822b47a3721d7ca385f9b, type: 2}
+  guid: 1a39dbd1275f393419caaf80aae80084
+  name: Christmas_TreeShake
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 271258c8ee7dbbd4eb24046bcedaa404
+      mixGroup: {fileID: 24300000, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 0.25000003
+      volumeRange: 0.049999982
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 57bfb480f3875944386b92f50bec26e7
+      mixGroup: {fileID: 24300000, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 0.40000004
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 9fbbfc7194859c24fbf376fe8e5a07ed
+      mixGroup: {fileID: 24300000, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 0.40000004
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

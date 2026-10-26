@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2041953561, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier:
+  goalRewardPools:
+  - goalRewardPool:
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: 3d5001e47978c134bae9df08ac93efdd, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 1, y: 1}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 1, y: 1}
+  - goalRewardPool:
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: 3d5001e47978c134bae9df08ac93efdd, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 2, y: 2}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 2, y: 2}
+  - goalRewardPool:
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: d3dfa8abe2977114e94274af001281f2, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: 3d5001e47978c134bae9df08ac93efdd, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 3, y: 3}
+    - rewardType: {fileID: 11400000, guid: 0fc694df4f4768c4899fe86b1207f8dc, type: 2}
+      amountRange: {x: 3, y: 3}
+  specialLevelConfigurations:
+  - specialLevelEventTitleTerm: WeeklyChallengeType.InvalidEvent.Title
+    specialLevelDescriptionTerm: WeeklyChallengeType.InvalidEvent.Description
+    specialLevelPopupDescriptionTerm: WeeklyChallengeType.InvalidEvent.PopUpDescription
+    specialLevelPictureTitleTerm: WeeklyChallengeType.InvalidEvent.PictureTitle
+    headerImage:
+      guid:
+  - specialLevelEventTitleTerm: SpecialLevel.Gummy.Title
+    specialLevelDescriptionTerm: SpecialLevel.Gummy.Description
+    specialLevelPopupDescriptionTerm: '-'
+    specialLevelPictureTitleTerm: '-'
+    headerImage:
+      guid: 5eabf1a60c9b049d192b3969f62c7449
+  - specialLevelEventTitleTerm: WeeklyChallengeType.StarEvent.Title
+    specialLevelDescriptionTerm: SpecialLevel.Star.Description
+    specialLevelPopupDescriptionTerm: '-'
+    specialLevelPictureTitleTerm: '-'
+    headerImage:
+      guid: 138181849ebeb64459d7a67ac99903c8
+  - specialLevelEventTitleTerm: WeeklyChallengeType.TimeEvent.Title
+    specialLevelDescriptionTerm: SpecialLevel.Timed.Description
+    specialLevelPopupDescriptionTerm: '-'
+    specialLevelPictureTitleTerm: '-'
+    headerImage:
+      guid: 43f772c2621a34e4682277b7341498c3
+  themeColorThemes:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: c8c13f829b8d76447aac546072e8c873, type: 2}
+  - {fileID: 11400000, guid: c537cc8b322579347800e5ee8d3cb731, type: 2}
+  - {fileID: 11400000, guid: 587f7c4ec16267c4bb6ccb2a0cc1b334, type: 2}
+  scorePerStar: 1000
+  maxTimeForBonus: 30
+  timeBonusScore: 100
+  fruitPrefabs: {fileID: 11400000, guid: 1b42efcb8d3dd114c8d49fd33eadbdb3, type: 2}
+  fruitPointsPerFruit: 100
+  fruitMaxTimeForBonus: 30
+  fruitPointsPerBonusSecond: 10
+  starTargetPoints: 2500
+  starMaxTimeForBonus: 30
+  starPointsPerBonusSecond: 50
+  timedScorePerStar: 225
+  timedMaxTimeForBonus: 30
+  timedPointsPerBonusSecond: 100

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterToss_Eyes
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path:
+    m_Weight: 1
+  - m_Path: CharacterToss
+    m_Weight: 0
+  - m_Path: CharacterToss/Root
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Arm_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Arm_R
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Eye_L
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_L/B_EyeLid_L
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_L/EyeLid_L
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_L/ViewTarget_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Eye_R
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_R/B_EyeLid_R
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_R/EyeLid_R
+    m_Weight: 1
+  - m_Path: CharacterToss/Root/Base/Body/Eye_R/ViewTarget_R
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth/Lip_B
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth/Lip_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth/Lip_R
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth/Lip_T
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Mouth/Lip_T/Tooth
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Spring_Bottom
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Spring_Bottom/Spring_Mid
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Spring_Bottom/Spring_Mid/Spring_Top
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Body/Spring_Controller
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Leg_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Base/Leg_R
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Foot_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Foot_R
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Hand_L
+    m_Weight: 0
+  - m_Path: CharacterToss/Root/Hand_R
+    m_Weight: 0
+  - m_Path: CharacterToss_Mesh
+    m_Weight: 0
+  - m_Path: Toss_Eyelids
+    m_Weight: 0
+  - m_Path: Toss_Eyes
+    m_Weight: 0
+  - m_Path: Toss_Lashes
+    m_Weight: 0
+  - m_Path: Toss_Paws
+    m_Weight: 0
+  - m_Path: Toss_Spring
+    m_Weight: 0

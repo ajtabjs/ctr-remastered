@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_BoardGame_Winter_WinterFun_SnowWallBlue
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: e66eb99cc3fe6d1429b07be8ac67b518, type: 2}
+  guid: bc0610524de9e49c68c08e85d4b4842e
+  name: WinterFun_SnowWallBlue
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 5e826c8683b034725b99f424c031dc1d
+      mixGroup: {fileID: 24300000, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 0e364b952e58f40f691b08f747003a68
+      mixGroup: {fileID: 24300000, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

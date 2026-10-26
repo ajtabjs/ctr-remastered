@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -202006698, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Winterfun
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 2054e0aadc6a51d468f1eb476c0c1c4c, type: 2}
+  guid: 84295bf18f8cb4fcca86d3c80133741f
+  name: Winterfun
+  scene:
+    guid: d47d141955c59a9479d56613f3bbfe9b
+  notificationName: Winter
+  specialLevelPrefix: SpecialLevel.Winter.BoardGameLevel
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: 2228310c6821140428e175542a314424, type: 2}
+  backgroundSetting: {fileID: 11400000, guid: dced57d7d0dbf5d4bbd81396f8ba1529, type: 2}

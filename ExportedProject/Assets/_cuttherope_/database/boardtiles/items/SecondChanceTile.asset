@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1341597482, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SecondChanceTile
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 29dae60e73dc8064996aea62745407e9, type: 2}
+  guid: e7ba0ad831444d542b81c9638ec4f6b0
+  name: SecondChanceTile
+  tileMaterial: {fileID: 2100000, guid: 8ad47159844ae2a41b18fb1fc9ef6959, type: 2}
+  canBeReshuffled: 1
+  amount: 1
+  secondChanceTileSfx:
+    audioPlayableKey: {fileID: 11400000, guid: b5d5b6fd56c7548428b20f82058bc60b, type: 2}

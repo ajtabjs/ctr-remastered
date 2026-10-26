@@ -1,0 +1,114 @@
+ManifestFileVersion: 0
+CRC: 1313905070
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cc5accdc2ef3eff803dadaa2aacfa337
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1783c8f30e7170bb36515ee173a18d0e
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: cc5accdc2ef3eff803dadaa2aacfa337
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 50
+  Script: {instanceID: 0}
+- Class: 58
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0d875a0ce54c41059d2b0fd6bb45fbe5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3e81979feae742a393231633452d4ab1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: af061a68a46b45428992ae1ed8b17f47, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 90e22dc50be7450f921fac0742be75b7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80264e614730b1144a139ac4d7517973, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45cfee7598356b444b8afa73111a1fdb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 98639545146c45a4873f8a090defede9, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8625fcf849cf43d7a496d897c6ce372c, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dceaf30bd2494ee4c8e366be70ff56c2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a804cd2ec454409f8159ace36c8237d1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a97d05da27954f01b0fe73b2f4f89737, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ece6ce2f8aa7cb4881adcbaa6f17538, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6b5dd247a4b44047929cabaa53ffc99d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f7444af08b924bc3874db44380d34fd2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Framework-AssetWorkflow
+  ClassName: Paladin.Framework.AssetWorkflow.Assets.AssetTagSet
+- AssemblyName: Framework-AssetWorkflow
+  ClassName: Paladin.Framework.AssetWorkflow.Properties.PropertyExposer/Property
+- AssemblyName: Framework-AssetWorkflow
+  ClassName: Paladin.Framework.AssetWorkflow.Properties.PropertyExposer/PropertyEntry
+- AssemblyName: Framework-Audio
+  ClassName: Paladin.Framework.Audio.Runtime.AudioPlayableOneShot
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableOneShotReference
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableOneShotReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/GameObjectReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/ParticleReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/PowerUpCollectTriggerReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/UnityEventReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/WorldStarTriggerReferenceList
+Assets:
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Animations/SuctionCup@Off.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Materials/Effect_Splat_Material.mat
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Models/Visuals_SuctionCup.fbx
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/SuctionCup.prefab
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Animations/SuctionCup.controller
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Materials/SuctionCup_Material.mat
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Animations/SuctionCup@Idle.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Animations/SuctionCup@On.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/SuctionCup/Models/Visuals_SuctionCupSplat.fbx
+Dependencies:
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/gameplay/suctioncup/components/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/gameplay/suctioncup/textures/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/shaders/effects/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/shaders/gameplay/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/worldmaps/_shared/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/database/bundle

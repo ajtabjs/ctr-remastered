@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1173396782, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: CandyRain
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: fcb2f3df233cf0e48906e7cc34ca8c49, type: 2}
+  guid: 7735f8e6795f04742a0052752f3740e1
+  name: CandyRain
+  displayName: Candy Rain
+  isPowerUp: 1
+  rewardPrefab:
+    guid: 45abf84ea3f5cab44abf19a119a61b76
+  rewardSprite:
+    guid: 0103288c9c18e0642bcc96b3c25302df
+  rewardUiPrefab:
+    guid: 1d1ecde39ca4b1f4f9b44044058e1729
+  foundLocalizationTerm: PowerUpFound.CandyRain
+  tutorialImage: {fileID: 11400000, guid: 8764449a3e428be43b8258aff9040a8e, type: 2}

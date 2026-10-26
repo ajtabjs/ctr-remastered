@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1812906044, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: DiceRoll
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 3ed891b01ef31ef4e9c234fd81e5552e, type: 2}
+  guid: f4912c71f5fef4af896c7b3cb1faf5e8
+  name: DiceRoll
+  displayName: Dice Roll
+  isPowerUp: 0
+  rewardPrefab:
+    guid: fe19b2ab2fc78ac48898c9502d145561
+  rewardSprite:
+    guid: 573afe9cf2a1a8144a685b0e81d4c7fb
+  rewardUiPrefab:
+    guid: 3bc6d3ee2b358d447ba72cc83edaa795
+  foundLocalizationTerm: Boardgame.Reward

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 676500931, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Space
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: d47acf49179e2e546a751afecbcc86ed, type: 2}
+  guid: c353dc16d401ee7449ef98ab15e61f7e
+  name: MiniStory_Space
+  isActive: 1
+  debugOnly: 0
+  displayInTweakPanel: 1
+  levelEnvironment: {fileID: 11400000, guid: 84030b1ebece1cb458bcff69514e3abd, type: 2}
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: f20976461172bb446b722436f4d2598e, type: 2}
+  colorTheme: {fileID: 11400000, guid: 587f7c4ec16267c4bb6ccb2a0cc1b334, type: 2}
+  loadingScreenTexture:
+    guid: 34ae14cf832114be0bcfcf3a4c786a62
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  backgroundSetting: {fileID: 11400000, guid: c9758cbd602231f45ac282ef7293dff0, type: 2}
+  diorama:
+    guid: 405b142e454e3f3439a16e3c4920e0a9
+  numericalOrder: -1
+  displayNameTerm: MiniStory.11.Title
+  storyPictureNameTerm:
+  levelNameTerm: MiniStory.11.LevelUI.StoryLevel
+  lastPlayedLevelNameTerm: MiniStory.11.Profile.LastPlayedStory
+  deepLinkId: space
+  storySetImage:
+    guid: 7c86c2deca0c74ce29c0e3e10e4fd3af
+  storyStampSprite:
+    guid: d1e3bc0fe45954221b1461cec29af8a6
+  piecesSetPrefab:
+    guid: f837d535a50dfb64189b37af1b3f79ad
+  uiParticlesPrefab:
+    guid: 8c1d6a4a5ada69e4882ffa1d3212f94f
+  notificationCategoryKey: space

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1166997248, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: AncientGreece
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: b690db950c5a9d74d852e941add73861, type: 2}
+  guid: de6708504d333421e9818e8344fdbc7d
+  name: AncientGreece
+  portalPrefabs:
+  - portalColor: 0
+    prefab:
+      guid: 1b4e068b948304ff5baaebae8d6b572f
+  - portalColor: 1
+    prefab:
+      guid: c5ac76bf9ac064c729899c1721358e06
+  - portalColor: 2
+    prefab:
+      guid: 86eaf14a87e284578ba0ece40878d83d

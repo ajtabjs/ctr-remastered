@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 714989608, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: BridgeTileNWNoReward
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 29dae60e73dc8064996aea62745407e9, type: 2}
+  guid: c2590d8327ff74526b3ae87e6f7c37d6
+  name: BridgeTileNWNoReward
+  tileMaterial: {fileID: 2100000, guid: 4d13bd18f3bad0a4daabcbedc25a7bb7, type: 2}
+  canBeReshuffled: 0
+  addDiceOnMove: 0
+  delayToStartAddDiceAnimation: 0
+  addDiceOnMoveAmount: 1
+  secondChanceTileSfx:
+    audioPlayableKey: {fileID: 0}

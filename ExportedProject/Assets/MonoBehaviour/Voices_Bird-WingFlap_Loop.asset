@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Voices_Bird-WingFlap_Loop
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 6841b30bfa7778449afd806bd58f104d, type: 2}
+  guid: b7177d6398dec314db696b511cad2e1a
+  name: Bird-WingFlap_Loop
+  audioPlayableData:
+    playType: 2
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 5ee2bee81dc161e478b75ceb64d7b647
+      mixGroup: {fileID: 24300000, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 0.9
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 0
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: d7f78b5654f2dbc419385f56556a85a0
+      mixGroup: {fileID: 24300000, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 1
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 0.9
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: bb1a2b914581f4d409039aa801742105
+      mixGroup: {fileID: 24300000, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 0.9
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 0
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

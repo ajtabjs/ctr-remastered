@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -485105610, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: TossTileSpace2
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 29dae60e73dc8064996aea62745407e9, type: 2}
+  guid: 8335fa5f9de8a904fa5bf19fb6281217
+  name: TossTileSpace2
+  tileMaterial: {fileID: 2100000, guid: 16f526ec8f4a0744cb1ccf29f2dbf48d, type: 2}
+  canBeReshuffled: 0
+  availableTiles:
+  - boardListIndex: 0
+    tileIndex: 9
+  - boardListIndex: 0
+    tileIndex: 10
+  - boardListIndex: 0
+    tileIndex: 11
+  - boardListIndex: 0
+    tileIndex: 12
+  - boardListIndex: 0
+    tileIndex: 13
+  - boardListIndex: 0
+    tileIndex: 14
+  - boardListIndex: 0
+    tileIndex: 15
+  - boardListIndex: 0
+    tileIndex: 16
+  - boardListIndex: 0
+    tileIndex: 17
+  triggerLandedTile: 0
+  spawnAnimDelay: 1
+  teleportTileSfx:
+    audioPlayableKey: {fileID: 11400000, guid: b794e4f1db9c3c045a6d94a29143cb6f, type: 2}

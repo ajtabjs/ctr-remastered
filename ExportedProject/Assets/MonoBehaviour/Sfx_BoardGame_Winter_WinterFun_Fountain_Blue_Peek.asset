@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_BoardGame_Winter_WinterFun_Fountain_Blue_Peek
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 22923f640bf7f144da5dac1b8d1703e3, type: 2}
+  guid: 0cfcc9d1cb4d24be2bf4ad2ae0b4bede
+  name: WinterFun_Fountain_Blue_Peek
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: a1296dd9d8c214748bb64c6e14be6cf3
+      mixGroup: {fileID: 24300012, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 0.70000005
+      volumeRange: 0.099999964
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 8b64677d1d1c24f38a487560e0aa0cc8
+      mixGroup: {fileID: 24300012, guid: 027040f70891aec4f82e525fe10f5dbc, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 0.70000005
+      volumeRange: 0.099999964
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1054847352, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: AudioSettings
+  m_EditorClassIdentifier:
+  clipPlayerPrefab: {fileID: 114724804207875695, guid: 8fb58916d39e1144db9651a92e2b3c36, type: 2}
+  defaultAudioPlayerCount: 20
+  audioOverflowAmount: 8
+  minimumCooldown: 0.05
+  enableAudioClipLogging: 0

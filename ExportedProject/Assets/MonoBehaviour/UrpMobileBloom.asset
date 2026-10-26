@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1736577523, guid: cbe8a4764499a52b780c7081ef977292, type: 3}
+  m_Name: UrpMobileBloom
+  m_EditorClassIdentifier:
+  m_Active: 1
+  settings:
+    renderPassEvent: 550
+    bloomMaterial: {fileID: 2100000, guid: 7b487f331e26ba540a1a125b49e04047, type: 2}
+    blendMaterial: {fileID: 2100000, guid: 41e8602032e905a4c904a4da4846acc2, type: 2}
+    wireframeMaterial: {fileID: 2100000, guid: 24a7405be4005d0449e8fa8788fe7dcd, type: 2}
+    threshold: 2.18
+    intensity: 1.5
+    maxPyramidSize: 3
+    scatter: 0.462
+    clamp: 65321
+    tint: {r: 1, g: 1, b: 1, a: 1}
+    highQualityFiltering: 0
+    tilePixelSize: 64
+    debug: 0
+    drawDebugGrid: 0

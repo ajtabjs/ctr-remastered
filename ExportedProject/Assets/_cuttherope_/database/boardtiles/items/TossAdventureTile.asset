@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -485105610, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: TossAdventureTile
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 29dae60e73dc8064996aea62745407e9, type: 2}
+  guid: ae7ed7746a21e56429a815688e949975
+  name: TossAdventureTile
+  tileMaterial: {fileID: 2100000, guid: 16f526ec8f4a0744cb1ccf29f2dbf48d, type: 2}
+  canBeReshuffled: 0
+  availableTiles:
+  - boardListIndex: 0
+    tileIndex: 0
+  - boardListIndex: 0
+    tileIndex: 1
+  - boardListIndex: 0
+    tileIndex: 2
+  - boardListIndex: 0
+    tileIndex: 3
+  - boardListIndex: 0
+    tileIndex: 4
+  - boardListIndex: 0
+    tileIndex: 5
+  - boardListIndex: 0
+    tileIndex: 6
+  - boardListIndex: 0
+    tileIndex: 7
+  - boardListIndex: 0
+    tileIndex: 8
+  - boardListIndex: 0
+    tileIndex: 10
+  - boardListIndex: 0
+    tileIndex: 11
+  - boardListIndex: 0
+    tileIndex: 12
+  - boardListIndex: 0
+    tileIndex: 13
+  - boardListIndex: 0
+    tileIndex: 14
+  - boardListIndex: 0
+    tileIndex: 15
+  - boardListIndex: 0
+    tileIndex: 16
+  - boardListIndex: 0
+    tileIndex: 17
+  - boardListIndex: 0
+    tileIndex: 19
+  - boardListIndex: 0
+    tileIndex: 20
+  - boardListIndex: 0
+    tileIndex: 21
+  - boardListIndex: 0
+    tileIndex: 22
+  - boardListIndex: 0
+    tileIndex: 23
+  - boardListIndex: 0
+    tileIndex: 24
+  - boardListIndex: 0
+    tileIndex: 25
+  - boardListIndex: 0
+    tileIndex: 26
+  - boardListIndex: 0
+    tileIndex: 28
+  - boardListIndex: 0
+    tileIndex: 29
+  - boardListIndex: 0
+    tileIndex: 30
+  - boardListIndex: 0
+    tileIndex: 31
+  - boardListIndex: 0
+    tileIndex: 32
+  - boardListIndex: 0
+    tileIndex: 33
+  - boardListIndex: 0
+    tileIndex: 34
+  - boardListIndex: 0
+    tileIndex: 35
+  - boardListIndex: 1
+    tileIndex: 1
+  - boardListIndex: 1
+    tileIndex: 2
+  - boardListIndex: 1
+    tileIndex: 3
+  - boardListIndex: 1
+    tileIndex: 4
+  - boardListIndex: 1
+    tileIndex: 5
+  - boardListIndex: 1
+    tileIndex: 6
+  - boardListIndex: 1
+    tileIndex: 7
+  - boardListIndex: 1
+    tileIndex: 8
+  - boardListIndex: 1
+    tileIndex: 10
+  - boardListIndex: 1
+    tileIndex: 11
+  - boardListIndex: 1
+    tileIndex: 12
+  - boardListIndex: 1
+    tileIndex: 13
+  - boardListIndex: 1
+    tileIndex: 14
+  - boardListIndex: 1
+    tileIndex: 15
+  - boardListIndex: 1
+    tileIndex: 16
+  - boardListIndex: 1
+    tileIndex: 17
+  - boardListIndex: 1
+    tileIndex: 18
+  - boardListIndex: 1
+    tileIndex: 19
+  triggerLandedTile: 0
+  spawnAnimDelay: 1
+  teleportTileSfx:
+    audioPlayableKey: {fileID: 11400000, guid: b794e4f1db9c3c045a6d94a29143cb6f, type: 2}

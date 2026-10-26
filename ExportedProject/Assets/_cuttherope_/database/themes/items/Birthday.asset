@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1428621039, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Birthday
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 7a59595b7e0a23c45ab7666ddf5ee3f1, type: 2}
+  guid: 7c672304afb42dc4ab016a564991e6c1
+  name: Birthday
+  activationDate:
+    day: 16
+    month: 9
+    hour: 0
+  boardGameType: {fileID: 11400000, guid: 408234b4539d0ed4480cb36d9553e7cb, type: 2}
+  themeIcon:
+    guid: 6303c22387d9ea34790b2f0a22febe70
+  profileBanner:
+    guid: 838580d4f00ca8c42b43de47c528a42b
+  loadingScreenTexture:
+    guid: 4dbc64d26b211a047a3da121cf2b10fa
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  whatsNewImage:
+    guid: f33b0dacb1fdb47d1aeec47f7fb585d8
+  homeBackground: {fileID: 11400000, guid: 1ace2304aee793d40892412116e32f08, type: 2}
+  enableHomeParticlesBackground: 1
+  homeParticlesBackground:
+    guid: b120e242950c70842b17ce89638dbee1
+  homeParticles:
+    guid: 424078ff9fd3c554987a59f3999d471d
+  activeMiniStory: {fileID: 11400000, guid: bc773e81f0cf274428a4e9a29ad0da30, type: 2}

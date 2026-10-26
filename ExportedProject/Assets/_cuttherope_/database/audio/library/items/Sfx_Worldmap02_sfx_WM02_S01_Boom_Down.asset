@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_Worldmap02_sfx_WM02_S01_Boom_Down
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 4d37ee1b622f72b40b80608cf6557fdd, type: 2}
+  guid: d3532024ab60b324ba9750802e84c2d5
+  name: sfx_WM02_S01_Boom_Down
+  audioPlayableData:
+    playType: 0
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: c94f9caf9a97583499f49a926b3c1abc
+      mixGroup: {fileID: 24300032, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

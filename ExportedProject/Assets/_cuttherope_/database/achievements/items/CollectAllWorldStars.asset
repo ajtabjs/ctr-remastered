@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -73250415, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: CollectAllWorldStars
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: f762aeef428c98f4684771b85d1aa18b, type: 2}
+  guid: 31e44ac7e1c8da746a5ee431ee387b6f
+  name: CollectAllWorldStars
+  id: grp.paladin.ctr.achievement.collectallworldstars
+  requiresSaving: 0
+  enableDebugLogs: 1
+  allLevels: 0
+  requiresRegularStars: 0
+  requiresPowerStar: 0
+  requiresWorldStar: 1
+  canUsePowerUp: 1
+  levelMetas:
+  - {fileID: 11400000, guid: a2d303b5946a04542b27bbf7373d4bc4, type: 2}
+  - {fileID: 11400000, guid: 9e0beffa2f640b048866a92f027c7291, type: 2}
+  - {fileID: 11400000, guid: 8ca4d8724c9b28d4e82658d94f06a3e2, type: 2}
+  - {fileID: 11400000, guid: e8b10a9faa4a80f4c818ad103316f6cc, type: 2}
+  - {fileID: 11400000, guid: 9997f20d0a5790a439f5d374e98df9e7, type: 2}
+  - {fileID: 11400000, guid: 165b4d64cd7943948ab90ef051cb8fb7, type: 2}
+  - {fileID: 11400000, guid: 497468270d328f7498974a43cc6dd368, type: 2}
+  - {fileID: 11400000, guid: eab31372a6cafe043bdb2f6ce89b73bd, type: 2}
+  - {fileID: 11400000, guid: e4111ce5478594b4b8b54765b0035a34, type: 2}
+  - {fileID: 11400000, guid: e9e059f2731865b40b0dfdfbb72f8620, type: 2}
+  - {fileID: 11400000, guid: c58c5578c4ecbd545b875d463876b7f7, type: 2}
+  - {fileID: 11400000, guid: da2dde92f88ffd44bba1879be0d987df, type: 2}
+  - {fileID: 11400000, guid: 06d8ddf84d699e04ab3192935a86135a, type: 2}
+  - {fileID: 11400000, guid: 43560a33cf293ac44a5106a6c6691332, type: 2}
+  - {fileID: 11400000, guid: 1cb10c454f1d02e47a207fb28048e9e2, type: 2}
+  - {fileID: 11400000, guid: e5cf49f4812102b459e912e827a07bdb, type: 2}
+  - {fileID: 11400000, guid: 4b053e54c1779c5448430b16b5d0ca30, type: 2}
+  - {fileID: 11400000, guid: db509915f535c8a42b71a2a20d404006, type: 2}
+  - {fileID: 11400000, guid: 8631df18385df6f46b1c46567af92eea, type: 2}
+  - {fileID: 11400000, guid: 33b7f4dd25931d542bacd20d4e881f7b, type: 2}
+  - {fileID: 11400000, guid: 248f03278a4cac8488721444f4be3005, type: 2}
+  - {fileID: 11400000, guid: 8a22d6f1308b7214e92d1bb1092e2383, type: 2}
+  - {fileID: 11400000, guid: d403039a89f47f7488454202d1e2a6b5, type: 2}
+  - {fileID: 11400000, guid: 51b6a9dd99a17644091fa1ace6446fa0, type: 2}
+  regularStarsToCollect: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -141222602, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: TeleportPowerupTile
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 29dae60e73dc8064996aea62745407e9, type: 2}
+  guid: bfcf88a1935f0a44f9e6307059945b4d
+  name: TeleportPowerupTile
+  tileMaterial: {fileID: 2100000, guid: fb78878ee59d7944e872922a41dec4a1, type: 2}
+  canBeReshuffled: 1
+  powerUpType: {fileID: 11400000, guid: 498e8a75f7b6e914abe27ffc2626505c, type: 2}
+  amount: 1
+  powerUpTileSfx:
+    audioPlayableKey: {fileID: 11400000, guid: b5d5b6fd56c7548428b20f82058bc60b, type: 2}

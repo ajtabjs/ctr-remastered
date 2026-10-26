@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1711811950, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Chapter02
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: bfc6fab6d7c693a468c84cb6c832977b, type: 2}
+  guid: f5a2710bf6ccc3f44a10dfbe6210332d
+  name: Chapter02
+  isActive: 1
+  debugOnly: 0
+  displayInTweakPanel: 1
+  levelEnvironment: {fileID: 11400000, guid: aa79403b0f984f949b69c09699beb74b, type: 2}
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: 5c3625ad9ec90924d8b5305efb016736, type: 2}
+  colorTheme: {fileID: 11400000, guid: c8c13f829b8d76447aac546072e8c873, type: 2}
+  loadingScreenTexture:
+    guid: c223610cda6ead54fa5d420bd4a4a93b
+  loadingScreenTextureOutline:
+    guid: 729475cbed83a8d4a8d93cef35ffd2eb
+  backgroundSetting: {fileID: 11400000, guid: 9cc3172f3f991db43a7f91ff9bf52d2a, type: 2}
+  diorama:
+    guid: 63b720dc151210742a8d9010ef87ec6c
+  numericalOrder: 2
+  requiredStarsToUnlock: 40
+  scene:
+    guid: ac8644713d637bb409895e329f2f785b
+  bookTexture:
+    guid: 5ecd0f549dc5a5f439bc9002e11a738d
+  notificationCategoryKey:

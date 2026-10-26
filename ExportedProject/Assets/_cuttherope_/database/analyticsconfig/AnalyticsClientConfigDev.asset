@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1512552189, guid: 24f8b418fa5e405059556cd289c7947b, type: 3}
+  m_Name: AnalyticsClientConfigDev
+  m_EditorClassIdentifier:
+  defaultAuthority: ctr-remastered-demo.zeptodev.com
+  primaryUserAgentString: CTR Remastered v2.3.5
+  endpoint: node1.clickhouse.zeptodev.com
+  port: 443
+  secure: 1
+  verboseLogs: 1

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1173396782, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Teleport
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 3ed891b01ef31ef4e9c234fd81e5552e, type: 2}
+  guid: a6e54e02428e744eaad80a796c013bd5
+  name: Teleport
+  displayName: Teleport
+  isPowerUp: 1
+  rewardPrefab:
+    guid: c8b4cf0a9f5f99b4fb91116fc2b3529d
+  rewardSprite:
+    guid: 0103288c9c18e0642bcc96b3c25302df
+  rewardUiPrefab:
+    guid: 78350568a01bd644daecb43c261ae49a
+  foundLocalizationTerm: PowerUpFound.Teleporter
+  tutorialImage: {fileID: 11400000, guid: 536246d9831a3ff42a3a47cc5d882c04, type: 2}

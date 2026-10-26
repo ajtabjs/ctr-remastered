@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_WinterSport_Level 4
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 12b31cf9920007d4388d99bcd1e75590, type: 2}
+  guid: eae9b2feb2bf381459ec4fb2d7d3985c
+  name: Level 4
+  displayInMenu: 1
+  scene:
+    guid: d186442fd56237546b54bc3394bd2df8
+  displayName: 4
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 0
+  fruitsOverride: {fileID: 0}
+  targetStarCollectedCount: 0
+  targetScores:
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 4ddc78eac7b5b0b4d8b8b10d9507e6a4, type: 2}
+  characterType: {fileID: 11400000, guid: 3d556762e5e545448bb5687d5ff5900a, type: 2}
+  candyType: {fileID: 11400000, guid: 16c1df6a98b85ed4580fe7985eddcb8b, type: 2}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 5fb794661905a1b4496d06c499174b0c, type: 2}
+  levelCompleteWindowOutfit: 12
+  characterOutfitOverride: 12
+  slopeMaterialOverride: {fileID: 2100000, guid: 06d07095dcaff15488e7fd6496812fff, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: 9165e0a80fa8ca8479d6c48ccc86887e, type: 2}
+  isMiniStoryLevel: 1
+  miniStoryTileIndex: 6
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: 78999aab3b6120c4ba6a570d55ebd100, type: 2}

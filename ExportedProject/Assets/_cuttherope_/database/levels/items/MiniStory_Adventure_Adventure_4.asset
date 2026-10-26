@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Adventure_Adventure_4
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 59150164578c2454fa6c901b42e9ca01, type: 2}
+  guid: d0e37b3c88b11cc43a5e110422a38a45
+  name: Adventure_4
+  displayInMenu: 1
+  scene:
+    guid: b740f82bb1460c142924813e0fe51293
+  displayName: 4
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 0
+  fruitsOverride: {fileID: 0}
+  targetStarCollectedCount: 0
+  targetScores:
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: bce2bf8b986568f42b2bd84d6af6129a, type: 2}
+  characterType: {fileID: 11400000, guid: 96cc59223809bd84d80d7107bbe4ef1b, type: 2}
+  candyType: {fileID: 11400000, guid: 16c1df6a98b85ed4580fe7985eddcb8b, type: 2}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 1278e1f51c08e224694ac32b5b737b6a, type: 2}
+  levelCompleteWindowOutfit: 11
+  characterOutfitOverride: 11
+  slopeMaterialOverride: {fileID: 2100000, guid: db665948b6fa42b4695bb2e50815efff, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: d70e782424981944bab834eed99e70e1, type: 2}
+  isMiniStoryLevel: 1
+  miniStoryTileIndex: 3
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: b78dcea66f1e78f4aaa167d0363bdff3, type: 2}

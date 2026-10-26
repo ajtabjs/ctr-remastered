@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 676500931, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: MiniStory_Thanksgiving
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: d47acf49179e2e546a751afecbcc86ed, type: 2}
+  guid: a17497d434a4af148a7ebc7c6c46158b
+  name: MiniStory_Thanksgiving
+  isActive: 1
+  debugOnly: 0
+  displayInTweakPanel: 1
+  levelEnvironment: {fileID: 11400000, guid: 310c7cc9fefef6f46afc52d161e9d0f4, type: 2}
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: c82338c4f42552848b304bc4fff4e5e7, type: 2}
+  colorTheme: {fileID: 11400000, guid: a7dcb2fd3f6f1bf4b8b3021fa4d1017b, type: 2}
+  loadingScreenTexture:
+    guid: 34ae14cf832114be0bcfcf3a4c786a62
+  loadingScreenTextureOutline:
+    guid: abd3a814cadc3bb4393c8febf5303377
+  backgroundSetting: {fileID: 11400000, guid: d16a6f4ee99735949ba6472a6e8926bf, type: 2}
+  diorama:
+    guid: 405b142e454e3f3439a16e3c4920e0a9
+  numericalOrder: -1
+  displayNameTerm: MiniStory.09.Title
+  storyPictureNameTerm:
+  levelNameTerm: MiniStory.09.LevelUI.StoryLevel
+  lastPlayedLevelNameTerm: MiniStory.09.Profile.LastPlayedStory
+  deepLinkId: thanksgiving
+  storySetImage:
+    guid: 4bf517eb2d8d4b24699a38e2adc29cea
+  storyStampSprite:
+    guid: 8d4d3fe392464d04aa01faf8ccb270c0
+  piecesSetPrefab:
+    guid: f837d535a50dfb64189b37af1b3f79ad
+  uiParticlesPrefab:
+    guid: 5af516a8182eabc42bcef38d04bb7c6e
+  notificationCategoryKey: thanksgiving

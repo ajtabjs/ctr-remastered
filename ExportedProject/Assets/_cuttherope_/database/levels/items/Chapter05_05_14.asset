@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Chapter05_05_14
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: dd4a5ddcf5ff21a458983342c37021f4, type: 2}
+  guid: 6ccde8b5d5b5f954d94ea19dff75b426
+  name: 05_14
+  displayInMenu: 1
+  scene:
+    guid: e8b24e42cfa914662b84544bf335671a
+  displayName: 5-14
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 0
+  fruitsOverride: {fileID: 0}
+  targetStarCollectedCount: 0
+  targetScores:
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 9c88a115a9df13640ad330cde0bc23d9, type: 2}
+  characterType: {fileID: 11400000, guid: 838fc6866bb170544b96f8df52a0e936, type: 2}
+  candyType: {fileID: 0}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 776b8eacef877dc4d913b615813ade92, type: 2}
+  levelCompleteWindowOutfit: -1
+  characterOutfitOverride: -2
+  slopeMaterialOverride: {fileID: 0}
+  anchorTypeOverride: {fileID: 0}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 0}

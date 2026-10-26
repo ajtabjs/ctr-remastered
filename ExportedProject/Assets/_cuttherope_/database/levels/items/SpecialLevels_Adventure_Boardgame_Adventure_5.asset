@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SpecialLevels_Adventure_Boardgame_Adventure_5
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: c35644f90ffd51747be0b2feb6f655b7, type: 2}
+  guid: 3478d66a1fdd8444b874a7ece8e1ddb8
+  name: Boardgame_Adventure_5
+  displayInMenu: 1
+  scene:
+    guid: 92e79c871ebb6d241ac3d9b0d9dc091a
+  displayName: 5
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 1
+  fruitsOverride: {fileID: 11400000, guid: 1b42efcb8d3dd114c8d49fd33eadbdb3, type: 2}
+  targetStarCollectedCount: 0
+  targetScores: dc050000d0070000c4090000
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 3db489f67d65b2349b43a9363d7049be, type: 2}
+  characterType: {fileID: 11400000, guid: d2c062256d5282e41b6cbae037455f42, type: 2}
+  candyType: {fileID: 0}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: c264044e13d61424eab8dee837011a33, type: 2}
+  levelCompleteWindowOutfit: 11
+  characterOutfitOverride: 11
+  slopeMaterialOverride: {fileID: 2100000, guid: 06d07095dcaff15488e7fd6496812fff, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: 78934e7c98e78a54eab507c339639508, type: 2}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: b78dcea66f1e78f4aaa167d0363bdff3, type: 2}

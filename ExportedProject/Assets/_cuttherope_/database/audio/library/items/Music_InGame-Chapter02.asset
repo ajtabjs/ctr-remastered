@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Music_InGame-Chapter02
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 2bf5c9eefa74d61459d871526efa9e91, type: 2}
+  guid: ae9b744bd4ccefe4fa43790c3d1a4d89
+  name: InGame-Chapter02
+  audioPlayableData:
+    playType: 0
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: ffba311591087c2448cc3648f1d59d79
+      mixGroup: {fileID: 24300048, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 1
+      randomStartPoint: 0
+      enable3D: 0
+      spatialBlend: 1
+      maxDistance: 500
+      minDistance: 1
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0
+      volumeRandomType: 0
+      volume: 1
+      volumeRange: 0
+      delay: 0.8
+      fadeIn: 0.8
+      fadeOut: 0.8
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SpecialLevels_WinterFun_WinterBoardgame_03
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 6ef82e4bd49c32c44aae2f2d9fa22d88, type: 2}
+  guid: a0f117397c6edb9448a5804648024a03
+  name: WinterBoardgame_03
+  displayInMenu: 1
+  scene:
+    guid: 9f18aee77b36e78498f8bb5087b5570b
+  displayName: 3
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 1
+  fruitsOverride: {fileID: 11400000, guid: 1b42efcb8d3dd114c8d49fd33eadbdb3, type: 2}
+  targetStarCollectedCount: 0
+  targetScores: d0070000c4090000b80b0000
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 0b46bf1e01d944547875502ffc9a5920, type: 2}
+  characterType: {fileID: 11400000, guid: 3d556762e5e545448bb5687d5ff5900a, type: 2}
+  candyType: {fileID: 0}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: dced57d7d0dbf5d4bbd81396f8ba1529, type: 2}
+  levelCompleteWindowOutfit: 7
+  characterOutfitOverride: 7
+  slopeMaterialOverride: {fileID: 2100000, guid: cb5f19ffa1951894a8ae673d1a2bb49c, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: b053642a779ef814d8cd9dbd74e0832f, type: 2}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: 78999aab3b6120c4ba6a570d55ebd100, type: 2}

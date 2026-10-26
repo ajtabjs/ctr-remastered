@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -957000625, guid: eca648c7a3410519a02db7bd8ec4a4a6, type: 3}
+  m_Name: AssetBundleTagDatabase
+  m_EditorClassIdentifier:
+  serializedEntries:
+  - Tag: Menu
+    BundleNames:
+    - bundles/ui/windows/homewindow/textures/bundle
+    - bundles/ui/windows/settings/textures/bundle
+    - bundles/ui/windows/levelselectwindow/textures/bundle
+    - bundles/ui/windows/languageswindow/textures/bundle
+    - bundles/ui/windows/chapterselectwindow/textures/bundle
+    - bundles/ui/shared/textures/bundle
+    - bundles/ui/windows/switchprofilewindow/textures/bundle
+    - bundles/ui/ministories/autumn/textures/bundle
+    - bundles/ui/ministories/friends/textures/bundle
+  - Tag: LevelComplete
+    BundleNames:
+    - bundles/ui/windows/levelcomplete/textures/bundle
+  - Tag: SplashScreen
+    BundleNames:
+    - splashscreen/textures/bundle
+  - Tag: ExcludeOSX
+    BundleNames:
+    - bundles/video/4.3x3/portrait/bundle
+    - bundles/video/4x3/portrait/bundle
+    - bundles/video/16x9/1920_1366_1334_1136/portrait/bundle
+    - bundles/video/16x9/2560_2208/portrait/bundle
+    - bundles/video/16x9/4096_3840/portrait/bundle
+    - bundles/video/16x9/5120_and_higher/portrait/bundle
+    - bundles/video/16x10/1440_1280/portrait/bundle
+    - bundles/video/16x10/2880_2560_2304/portrait/bundle
+    - bundles/video/19.5x9/portrait/bundle
+  - Tag: ExcludeTVOS
+    BundleNames:
+    - bundles/video/4.3x3/bundle
+    - bundles/video/4.3x3/portrait/bundle
+    - bundles/video/4x3/portrait/bundle
+    - bundles/video/16x9/1920_1366_1334_1136/portrait/bundle
+    - bundles/video/16x9/2560_2208/portrait/bundle
+    - bundles/video/16x9/4096_3840/portrait/bundle
+    - bundles/video/16x9/5120_and_higher/portrait/bundle
+    - bundles/video/16x10/1440_1280/portrait/bundle
+    - bundles/video/16x10/2880_2560_2304/portrait/bundle
+    - bundles/video/19.5x9/portrait/bundle
+    - bundles/video/intro/19_5x9/bundle
+    - bundles/video/outro/portrait/bundle
+  - Tag: ExcludeIOS
+    BundleNames:
+    - bundles/video/4.3x3/landscape/bundle
+    - bundles/video/4x3/landscape/bundle
+    - bundles/video/16x9/1920_1366_1334_1136/landscape/bundle
+    - bundles/video/16x9/2560_2208/landscape/bundle
+    - bundles/video/16x9/4096_3840/landscape/bundle
+    - bundles/video/16x9/5120_and_higher/landscape/bundle
+    - bundles/video/16x10/1440_1280/landscape/bundle
+    - bundles/video/16x10/2880_2560_2304/landscape/bundle
+    - bundles/video/19.5x9/landscape/bundle
+  tags:
+  - Menu
+  - LevelComplete
+  - SplashScreen
+  - ExcludeIOS
+  - ExcludeOSX
+  - ExcludeTVOS

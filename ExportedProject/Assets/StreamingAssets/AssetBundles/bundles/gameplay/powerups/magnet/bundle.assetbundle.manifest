@@ -1,0 +1,51 @@
+ManifestFileVersion: 0
+CRC: 2776115222
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb12c22f5438f72fb04a24507e0d90eb
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6202f1b7f942f87091ecb38964ec4866
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: fb12c22f5438f72fb04a24507e0d90eb
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 918fa603d81345c8afabc07ae93782b1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f7444af08b924bc3874db44380d34fd2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Framework-AssetBundleDatabase
+  ClassName: Paladin.Framework.AssetBundles.AssetReferenceGameObject
+- AssemblyName: Framework-Audio
+  ClassName: Paladin.Framework.Audio.Runtime.AudioPlayableOneShot
+Assets:
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Magnet/placeholder_magnet_circle.png
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Magnet/MagnetParticles.prefab
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Magnet/CandyMagnetParticleMaterial.mat
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Magnet/MagnetPowerUp.prefab
+Dependencies:
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/ui/powerups/magnet/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/database/bundle

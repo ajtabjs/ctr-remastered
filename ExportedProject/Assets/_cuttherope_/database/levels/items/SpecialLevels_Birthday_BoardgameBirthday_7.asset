@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SpecialLevels_Birthday_BoardgameBirthday_7
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: d163fb9411c0aea478a15834991bff5a, type: 2}
+  guid: e4cfc3002c0982f4fa514393474b7de9
+  name: BoardgameBirthday_7
+  displayInMenu: 1
+  scene:
+    guid: 8ba044e9df2d49c47a25b60834d12389
+  displayName: 7
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 3
+  fruitsOverride: {fileID: 0}
+  targetStarCollectedCount: 0
+  targetScores: b80b0000ac0d0000a00f0000
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: c587ee3bbe8c52d41969084d96b7e49a, type: 2}
+  characterType: {fileID: 11400000, guid: 96cc59223809bd84d80d7107bbe4ef1b, type: 2}
+  candyType: {fileID: 11400000, guid: b80b45c3d16a15f4cbf44741fa54ff08, type: 2}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 39d530077aeb86f47b11090c77f6810b, type: 2}
+  levelCompleteWindowOutfit: 5
+  characterOutfitOverride: 5
+  slopeMaterialOverride: {fileID: 2100000, guid: 0068d320f50aed7408987318ca8e695c, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: f6160e57a4fba49478e30cd9cf9568de, type: 2}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 0}

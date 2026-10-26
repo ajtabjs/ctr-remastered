@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SpecialLevels_Pirates_Pirates_9
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 3bd6d4ce95ddf1f4e83f64ff496a2bfb, type: 2}
+  guid: de7589fb3ed52d74a9e089d94f0e7c64
+  name: Pirates_9
+  displayInMenu: 1
+  scene:
+    guid: c608a4db3096fda498a353f4f05fcd35
+  displayName: 9
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 1
+  fruitsOverride: {fileID: 11400000, guid: 1b42efcb8d3dd114c8d49fd33eadbdb3, type: 2}
+  targetStarCollectedCount: 0
+  targetScores: d0070000c4090000b80b0000
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 4bb614765a6bc5746a204a860e62bfb5, type: 2}
+  characterType: {fileID: 11400000, guid: 3d556762e5e545448bb5687d5ff5900a, type: 2}
+  candyType: {fileID: 0}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 3e5128854cb8fc24cb8c6e3151018b06, type: 2}
+  levelCompleteWindowOutfit: 10
+  characterOutfitOverride: 10
+  slopeMaterialOverride: {fileID: 2100000, guid: 983121fb9d5b19245ba90bef29da60dc, type: 2}
+  anchorTypeOverride: {fileID: 11400000, guid: 405ea931dfc1b4642ae446cb6814e288, type: 2}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: 61c5141c144ca1e49a546f22dab00f0e, type: 2}

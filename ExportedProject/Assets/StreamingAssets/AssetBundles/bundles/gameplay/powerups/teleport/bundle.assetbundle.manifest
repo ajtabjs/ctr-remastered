@@ -1,0 +1,109 @@
+ManifestFileVersion: 0
+CRC: 610543929
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 0f316a47affbcf36af3a630c57b445ca
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 887bb3b1cde01d768dddb0d214644016
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 0f316a47affbcf36af3a630c57b445ca
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: a99d98c208552e44eace2fe8bbe6fb45, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 80264e614730b1144a139ac4d7517973, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57253468c611a674681849e739184034, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 45cfee7598356b444b8afa73111a1fdb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6674fa0f6ee14bf0910027c84139a2fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8ece6ce2f8aa7cb4881adcbaa6f17538, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9d308a7f6c47e0a41aa836f642187335, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9a6800e670b38174b8f21ef8a2528ee4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 49568371750d61142bd810b6e01f7e69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f7444af08b924bc3874db44380d34fd2, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 212
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Framework-Audio
+  ClassName: Paladin.Framework.Audio.Runtime.AudioPlayable
+- AssemblyName: Framework-Audio
+  ClassName: Paladin.Framework.Audio.Runtime.AudioPlayableOneShot
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableOneShotReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/AudioPlayableReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/GameObjectReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/ParticleReference
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/ParticleReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/PowerUpCollectTriggerReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/UnityEventReferenceList
+- AssemblyName: Paladin.Project
+  ClassName: Paladin.Framework.AnimatorActions.AnimationEventListener/WorldStarTriggerReferenceList
+Assets:
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/SiriCursorAnimation/IdleCursor.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/SiriCursorAnimation/HideCursor.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/SiriCursorAnimation/TeleportSiriCursorAnimator.controller
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/SiriCursorAnimation/ShowCursor.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/TeleportInvalidLocationAnimation.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/TeleportInvalidLocationAnimator.controller
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/TeleportPowerup.prefab
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Audio/sfx_PortalPowerup_Teleport.ogg
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/TeleportInvalidLocation.prefab
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Animations/SiriCursorAnimation/BeginState.anim
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Audio/sfx_PortalPowerup_Activate.ogg
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/Audio/sfx_PortalPowerup_Idle_Loop.ogg
+- Assets/[CutTheRope]/Bundles/Gameplay/Powerups/Teleport/TeleportSiriCursor.prefab
+Dependencies:
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/gameplay/transform/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/speciallevels/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/ui/powerups/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/ui/powerups/teleport/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/ui/shared/textures/powerups/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/bundles/worldmaps/_shared/bundle
+- /Users/buildbot/BuildAutomation/.github/buildbot-mac-03-3/_work/CtR/CtR/102_Paladin-macOS/AssetBundles/StandaloneOSX/database/bundle

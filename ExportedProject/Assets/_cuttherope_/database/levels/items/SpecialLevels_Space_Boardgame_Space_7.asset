@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1029830737, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: SpecialLevels_Space_Boardgame_Space_7
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 6700ed41ea36a9346b2abd9e9fac524e, type: 2}
+  guid: 78ef84bbe3373094aa6d526d5e1b1f3a
+  name: Boardgame_Space_7
+  displayInMenu: 1
+  scene:
+    guid: 88a49e3bbe6302b4eb67bc6fbace5055
+  displayName: 7
+  allowWorldStar: 0
+  givePowerupWhenThreeStar: 0
+  levelRuleType: 1
+  fruitsOverride: {fileID: 11400000, guid: 1b42efcb8d3dd114c8d49fd33eadbdb3, type: 2}
+  targetStarCollectedCount: 0
+  targetScores: c4090000b80b0000ac0d0000
+  isBonusLevel: 0
+  bonusUnlockRequirement: 0
+  requiredStarsToUnlock: 0
+  FOVMultiplier: 1
+  levelEnvironmentOverride: {fileID: 11400000, guid: 84030b1ebece1cb458bcff69514e3abd, type: 2}
+  characterType: {fileID: 11400000, guid: 3d556762e5e545448bb5687d5ff5900a, type: 2}
+  candyType: {fileID: 0}
+  portalType: {fileID: 0}
+  backgroundSetting: {fileID: 11400000, guid: 262f70b0730335f409014a2eb49b69cc, type: 2}
+  levelCompleteWindowOutfit: 9
+  characterOutfitOverride: 9
+  slopeMaterialOverride: {fileID: 0}
+  anchorTypeOverride: {fileID: 11400000, guid: d9be0ec7690335e409403bdd2794534e, type: 2}
+  isMiniStoryLevel: 0
+  miniStoryTileIndex: 0
+  musicOverride:
+    audioPlayableKey: {fileID: 11400000, guid: f20976461172bb446b722436f4d2598e, type: 2}

@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1310865757, guid: 714ba0aa9dec80b2847e83e0afc04f3e, type: 3}
+  m_Name: Sfx_UI_sfx_UI_WM_Tap_Level_Node_Locked
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 102abcc1b2da39941935cdaaaaea4b9d, type: 2}
+  guid: 60eeb8d24f26a4449b3863e7ab9c6c01
+  name: sfx_UI_WM_Tap_Level_Node_Locked
+  audioPlayableData:
+    playType: 1
+    audioList:
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: cb57b9022aff6de4b833118ba70dc377
+      mixGroup: {fileID: 24300044, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 0
+      maxDistance: 0
+      minDistance: 0
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 0.6
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 2a02efa4adffbc149be9e47080e3b28f
+      mixGroup: {fileID: 24300044, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 0
+      maxDistance: 0
+      minDistance: 0
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 0.6
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    - clip: {fileID: 0}
+      clipInAssetBundle:
+        guid: 5477e9850ca55ca44a333067f7f1de9a
+      mixGroup: {fileID: 24300044, guid: b46cafc6e65b10f4ca09983b05183eef, type: 2}
+      loop: 0
+      randomStartPoint: 0
+      enable3D: 1
+      spatialBlend: 0
+      maxDistance: 0
+      minDistance: 0
+      pitchRandomType: 0
+      pitch: 1
+      pitchRange: 0.1
+      volumeRandomType: 0
+      volume: 0.6
+      volumeRange: 0
+      delay: 0
+      fadeIn: 0
+      fadeOut: 0
+    cooldown: 0.05
+    playProbability: 1
+    playExclusively: 0
+    minDelay: 0
+    maxDelay: 0
+    fadeIn: 0
+    fadeOut: 0
+    modifiers: []

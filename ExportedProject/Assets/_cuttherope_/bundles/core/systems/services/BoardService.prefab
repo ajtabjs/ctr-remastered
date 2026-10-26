@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: BoardService
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1274035822, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  shuffleAnimType: 1
+  currentBoardType: {fileID: 0}
+  loadingScreenTexture:
+    guid: ae151f187f2fbf641aaa2826635c4f24
+  loadingScreenOutlineTexture:
+    guid: fc7b0051b2e41e248bf6765c496ae3ab
+  initiateTilesSfx:
+    audioPlayableKey: {fileID: 11400000, guid: 83b069f71edda6246901c38c3c14ffd4, type: 2}
+  diceRollSfx:
+    audioPlayableKey: {fileID: 11400000, guid: c46315b288884054884514de74c5b20b, type: 2}
+  shuffleTilesSfx:
+    audioPlayableKey: {fileID: 11400000, guid: b5e25453e98fb2348a2bb39a407fdd9c, type: 2}
+  diceFaces: 6
+  maxDiceAmount: 99
+  initialDiceAmount: 2
+  controlledDiceRollConfig: {fileID: 11400000, guid: 7791a5b02f58afa45bceb1254c6965f9, type: 2}
+  initialAnimDelay: 0.5
+  initialAnimDuration: 2.2
+  avatarSpawnDelay: 0.1
+  launchAnimDelay: 0.9
+  landingAnimDelay: 1.6
+  tileShuffleDelay: 0.08
+  tileHighlightDelay: 0.4
+  tileHighlightInterval: 0.1
+  notificationCategory: board

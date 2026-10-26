@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -202006698, guid: ae8e5bf3f48043e4435205e63b3e5cf9, type: 3}
+  m_Name: Christmas
+  m_EditorClassIdentifier:
+  parentEnum: {fileID: 11400000, guid: 2054e0aadc6a51d468f1eb476c0c1c4c, type: 2}
+  guid: 19ce6887acac14ddb86734b3d7517dcc
+  name: Christmas
+  scene:
+    guid: 42aae1e13c25242429c48db93cf3e549
+  notificationName: Christmas
+  specialLevelPrefix: SpecialLevel.Christmas.BoardGameLevel
+  music:
+    audioPlayableKey: {fileID: 11400000, guid: 9bfe991bb190c7342b33fa4c40c62726, type: 2}
+  backgroundSetting: {fileID: 11400000, guid: 15f00258f09c6aa44b03ccd337e2e5c4, type: 2}
