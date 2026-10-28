@@ -17,7 +17,7 @@ public class Example2_BasicDatabaseOperations : MonoBehaviour
 	private void Run()
 	{
 		Debug.Log("Example 2 - Basic Database Operations");
-		database = CKContainer.DefaultContainer.PrivateCloudDatabase;
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
 		record = new CKRecord("MyType");
 		record.SetString("AmbientTemperatureSensor", "MyField");
 		Debug.Log("Saving a record");

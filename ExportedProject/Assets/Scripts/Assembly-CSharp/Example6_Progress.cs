@@ -19,7 +19,7 @@ public class Example6_Progress : MonoBehaviour
 	private void Run()
 	{
 		Debug.Log("Example 6 - Per Record Progress");
-		database = CKContainer.DefaultContainer.PrivateCloudDatabase;
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
 		for (int i = 0; i < numFiles; i++)
 		{
 			CKRecord cKRecord = new CKRecord("BigFile");

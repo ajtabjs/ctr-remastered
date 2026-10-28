@@ -37,7 +37,7 @@ namespace Opencoding.Demo.CommandSecurity
 			float num = ((Screen.dpi == 0f) ? 140f : Screen.dpi) / 140f;
 			int num2 = (int)Mathf.Min(_screenScaleFactor * 300f, Screen.width);
 			int num3 = (int)(num * 140f);
-			GUI.ModalWindow(typeof(CommandSecurityPopup).GetHashCode(), new Rect(Screen.width / 2 - num2 / 2, Screen.height / 2 - num3 / 2, num2, num3), WindowFunc, "", _skin);
+			GUI.ModalWindow(typeof(CommandSecurityPopup).GetHashCode(), new Rect(Screen.width / 2 - num2 / 2, Screen.height / 2 - num3 / 2, num2, num3), WindowFunc, "", _skin.window);
 		}
 
 		private void CreateSkin()

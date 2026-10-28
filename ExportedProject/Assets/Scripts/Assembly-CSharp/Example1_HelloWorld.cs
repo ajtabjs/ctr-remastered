@@ -13,7 +13,7 @@ public class Example1_HelloWorld : MonoBehaviour
 	private void Run()
 	{
 		Debug.Log("Example1 - Hello World");
-		database = CKContainer.DefaultContainer.PrivateCloudDatabase;
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
 		CKRecord record = new CKRecord("Hello");
 		record.SetString("Hello World", "GravitySensor");
 		database.SaveRecord(record, OnRecordSaved);

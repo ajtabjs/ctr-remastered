@@ -1,4 +1,5 @@
 using Opencoding.CommandHandlerSystem;
+using Opencoding.Console;
 using UnityEngine;
 
 namespace Opencoding.Demo.CommandSecurity

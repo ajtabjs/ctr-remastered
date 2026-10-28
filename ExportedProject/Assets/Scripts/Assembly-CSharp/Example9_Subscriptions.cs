@@ -1,94 +1,108 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
+using System.Linq;
 using HovelHouse.CloudKit;
 using UnityEngine;
 
 public class Example9_Subscriptions : MonoBehaviour
 {
-	[CompilerGenerated]
-	private sealed class _003CStart_003Ed__2 : IEnumerator<object>, IEnumerator, IDisposable
-	{
-		private int _003C_003E1__state;
-
-		private object _003C_003E2__current;
-
-		public Example9_Subscriptions _003C_003E4__this;
-
-		object IEnumerator<object>.Current
-		{
-			[DebuggerHidden]
-			get
-			{
-				return null;
-			}
-		}
-
-		object IEnumerator.Current
-		{
-			[DebuggerHidden]
-			get
-			{
-				return null;
-			}
-		}
-
-		[DebuggerHidden]
-		public _003CStart_003Ed__2(int _003C_003E1__state)
-		{
-		}
-
-		[DebuggerHidden]
-		void IDisposable.Dispose()
-		{
-		}
-
-		private bool MoveNext()
-		{
-			return false;
-		}
-
-		bool IEnumerator.MoveNext()
-		{
-			//ILSpy generated this explicit interface implementation from .override directive in MoveNext
-			return this.MoveNext();
-		}
-
-		[DebuggerHidden]
-		void IEnumerator.Reset()
-		{
-		}
-	}
-
 	private const string recordType = "SubscriptionRecordType";
 
 	private CKDatabase database;
 
-	[IteratorStateMachine(typeof(_003CStart_003Ed__2))]
 	private IEnumerator Start()
 	{
-		return null;
+		Debug.Log("Example 9 - Subscriptions");
+		Debug.Log("Requesting notification token");
+		ICloudNotifications.RequestNotificationToken(delegate(byte[] tokenBytes, NSError error)
+		{
+			if (error != null)
+			{
+				Debug.LogError("Failed to get push notification token: " + error.LocalizedDescription);
+			}
+			else
+			{
+				Debug.LogError("Got push notification token");
+			}
+		});
+		ICloudNotifications.SetRemoteNotificationHandler(delegate
+		{
+			Debug.Log("remote notification handler called");
+		});
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
+		database.FetchAllSubscriptionsWithCompletionHandler(OnSubscriptionsFetched);
+		ICloudNotifications.SetRemoteNotificationHandler(OnQueryNotification);
+		yield break;
 	}
 
 	private void OnSubscriptionsFetched(CKSubscription[] subscriptions, NSError error)
 	{
+		if (error != null)
+		{
+			Debug.LogError(error.LocalizedDescription);
+			return;
+		}
+		if (subscriptions.Length == 0)
+		{
+			Debug.Log("No subscriptions detected - making a new one");
+			CKRecord record = new CKRecord("SubscriptionRecordType");
+			database.SaveRecord(record, delegate(CKRecord savedRecord, NSError saveError)
+			{
+				if (saveError != null)
+				{
+					Debug.LogError(saveError.LocalizedDescription);
+				}
+				else
+				{
+					CreateSubscription();
+				}
+			});
+			return;
+		}
+		Debug.LogFormat("You have the following subscriptions: {0}", new object[]
+		{
+			string.Join(",", subscriptions.Select((CKSubscription sub) => sub.SubscriptionID.ToString()).ToArray())
+		});
 	}
 
 	private void OnQueryNotification(CKNotification notification)
 	{
+		Debug.Log(string.Format("Recieved notification: {0} {1}", notification.NotificationID, notification.NotificationType));
+		if (notification is CKQueryNotification cKQueryNotification)
+		{
+			Debug.Log("Notification Reason: " + cKQueryNotification.QueryNotificationReason);
+			Debug.Log("RecordID: " + cKQueryNotification.RecordID.RecordName);
+		}
 	}
 
 	private void CreateSubscription()
 	{
+		CKDatabase cKDatabase = CKContainer.DefaultContainer().PrivateCloudDatabase;
+		NSPredicate predicate = NSPredicate.PredicateWithValue(true);
+		CKNotificationInfo cKNotificationInfo = new CKNotificationInfo();
+		CKQuerySubscription cKQuerySubscription = new CKQuerySubscription("SubscriptionRecordType", predicate, CKQuerySubscriptionOptions.FiresOnRecordCreation | CKQuerySubscriptionOptions.FiresOnRecordUpdate | CKQuerySubscriptionOptions.FiresOnRecordDeletion);
+		cKQuerySubscription.NotificationInfo = cKNotificationInfo;
+		cKDatabase.SaveSubscription(cKQuerySubscription, OnSubscriptionSaved);
 	}
 
 	private void OnSubscriptionModified(CKSubscription[] savedSubscriptions, string[] deletedSubscriptionIds, NSError error)
 	{
+		if (error != null)
+		{
+			Debug.LogError(error.LocalizedDescription);
+			return;
+		}
+		Debug.Log(string.Format("Saved {0} subscriptions with ids: ({1})", savedSubscriptions.Length, string.Join(",", savedSubscriptions.Select((CKSubscription x) => x.SubscriptionID))));
 	}
 
 	private void OnSubscriptionSaved(CKSubscription subscription, NSError error)
 	{
+		if (error == null)
+		{
+			Debug.Log(string.Format("subscription saved with id: {0} of type: {1}", subscription.SubscriptionID, subscription.SubscriptionType));
+		}
+		else
+		{
+			Debug.LogError("error saving subscription: " + error.LocalizedDescription);
+		}
 	}
 }

@@ -12,8 +12,8 @@ namespace Opencoding.Console.Demo
 		private void Awake()
 		{
 			CommandHandlers.RegisterCommandHandlers(typeof(AdvancedCommandHandlerDemo));
-			CommandHandlers.RegisterCommandHandler<string, int>(DynamicallyRegisteredMethod, null, null, null, true);
-			CommandHandlers.RegisterCommandHandler<int, string[]>(DynamicParamsMethod1, "DynamicParamsMethod1", null, null, true);
+			CommandHandlers.RegisterCommandHandler<string, int>(DynamicallyRegisteredMethod, null, null, (Type[])null, true);
+			CommandHandlers.RegisterCommandHandler<int, string[]>(DynamicParamsMethod1, "DynamicParamsMethod1", null, (Type[])null, true);
 			CommandHandlers.RegisterCommandHandler<Color, string[]>(DynamicParamsMethod2, "DynamicParamsMethod2", "Method that tests dynamic parameters with overridden types", new Type[]
 			{
 				typeof(int),

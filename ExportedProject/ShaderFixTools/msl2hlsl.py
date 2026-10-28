@@ -345,6 +345,22 @@ def translate(src, stage_kind, prefix):
     b1 = match_paren(s_nostruct, b0, "{", "}")
     body = s_nostruct[b0 + 1:b1]
     globals_part = s_nostruct[:em.start()]
+    helpers = []
+    tm = re.search(r"template\s*<typename\s+UVecType>\s*UVecType\s+bitFieldInsert\s*\(", globals_part)
+    if tm:
+        hb0 = globals_part.index("{", tm.end())
+        hb1 = match_paren(globals_part, hb0, "{", "}")
+        end = hb1 + 1
+        if end < len(globals_part) and globals_part[end] == ";":
+            end += 1
+        globals_part = globals_part[:tm.start()] + globals_part[end:]
+        h = ["#ifndef SF_BITFIELDINSERT", "#define SF_BITFIELDINSERT"]
+        for t in ("uint", "uint2", "uint3", "uint4"):
+            h.append("%s bitFieldInsert(%s width, %s offset, %s src2, %s src3) { %s bitmask = (((%s)1u << width) - 1u) << offset; return ((src2 << offset) & bitmask) | (src3 & ~bitmask); }" % ((t,) * 7))
+        h.append("#endif")
+        helpers.append("\n".join(h))
+    if re.search(r"\btemplate\b", globals_part):
+        raise TranslateError("unsupported template helper")
 
     # ---- global scope constants
     for line in globals_part.split("\n"):
@@ -364,6 +380,7 @@ def translate(src, stage_kind, prefix):
         gtext = re.sub(r"\bconstant\s+", "static const ", gtext)
         gtext = gtext.replace("constexpr ", "")
         st.statics.append(gtext)
+    st.statics.extend(helpers)
 
     cb_names = []
     matrices = {}  # name -> (rows, cols, count)

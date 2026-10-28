@@ -170,10 +170,18 @@ def state_lines(stt, ind):
     return [ind + x for x in L]
 
 
+TAG_KEYS = {"QUEUE": "Queue", "LIGHTMODE": "LightMode", "RENDERTYPE": "RenderType",
+            "IGNOREPROJECTOR": "IgnoreProjector", "FORCENOSHADOWCASTING": "ForceNoShadowCasting",
+            "CANUSESPRITEATLAS": "CanUseSpriteAtlas", "PREVIEWTYPE": "PreviewType"}
+TAG_VALUES = {"SHADOWCASTER": "ShadowCaster", "ALWAYS": "Always", "FORWARDBASE": "ForwardBase",
+              "FORWARDADD": "ForwardAdd", "VERTEX": "Vertex", "META": "Meta", "DEFERRED": "Deferred"}
+
+
 def tags_str(tags):
     if not tags:
         return ""
     items = tags if isinstance(tags, list) else list(tags.items())
+    items = [(TAG_KEYS.get(k, k), TAG_VALUES.get(v, v) if k in ("LIGHTMODE", "LightMode") else v) for k, v in items]
     return "Tags { " + " ".join('"%s" = "%s"' % (k, v) for k, v in items) + " }"
 
 

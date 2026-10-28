@@ -17,7 +17,7 @@ public class Example5_Zones : MonoBehaviour
 	{
 		Debug.Log("Example 5 - Zones");
 		customZone = new CKRecordZone("GameCenterUser1");
-		database = CKContainer.DefaultContainer.PrivateCloudDatabase;
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
 		database.SaveRecordZone(customZone, OnRecordZoneCreated);
 	}
 

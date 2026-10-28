@@ -18,7 +18,7 @@ public class Example3_Querying : MonoBehaviour
 	private void Run()
 	{
 		Debug.Log("Example 3 - Querying");
-		database = CKContainer.DefaultContainer.PrivateCloudDatabase;
+		database = CKContainer.DefaultContainer().PrivateCloudDatabase;
 		names = new string[5]
 		{
 			"Alice",
