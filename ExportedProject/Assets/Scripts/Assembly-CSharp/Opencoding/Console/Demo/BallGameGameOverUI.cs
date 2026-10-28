@@ -12,18 +12,24 @@ namespace Opencoding.Console.Demo
 
 		private void Awake()
 		{
+			gameObject.SetActive(false);
 		}
 
 		public void Setup(BallGameController ballGameController)
 		{
+			_ballGameController = ballGameController;
+			_restartButton.onClick.AddListener(OnRestartPressed);
 		}
 
 		public void Show()
 		{
+			gameObject.SetActive(true);
 		}
 
 		private void OnRestartPressed()
 		{
+			gameObject.SetActive(false);
+			_ballGameController.Restart();
 		}
 	}
 }

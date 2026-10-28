@@ -11,50 +11,75 @@ namespace Opencoding.Console.Demo
 		{
 			get
 			{
-				return 0f;
+				return Physics2D.gravity.y;
 			}
 			set
 			{
+				Physics2D.gravity = new Vector2(0f, value);
 			}
 		}
 
 		public static void Initialize()
 		{
+			CommandHandlers.RegisterCommandHandlers(typeof(BallGameGeneralCommandHandlers));
 		}
 
 		[ConsoleCommand(Description = "Change the colour of the background. Predefined named colours are available.")]
 		private static void SetBackgroundColor(Color color)
 		{
+			Camera.main.backgroundColor = color;
 		}
 
 		[ConsoleCommand(Description = "This command is an example of custom auto-completion. It doesn't do anything.")]
 		private static void LoadLevel([Autocomplete(typeof(DemoController), "LevelAutocomplete")] string levelName)
 		{
+			Debug.Log("This is a fake command to demonstrate auto-completion. Imagine you've loaded the level '" + levelName + "'!");
 		}
 
 		public static IEnumerable<string> LevelAutocomplete()
 		{
-			return null;
+			return new string[]
+			{
+				"Map",
+				"MagneticFieldSensor",
+				"Level1",
+				"Level2",
+				"Level3",
+				"Intro Movie",
+				"Game Over Screen"
+			};
 		}
 
 		[ConsoleCommand]
 		private static void ChangeColor([Autocomplete(typeof(BallGameGeneralCommandHandlers), "ColorAutoComplete")] string color)
 		{
+			Debug.Log("ChangeColor executed: " + color);
 		}
 
 		public static IEnumerable<string> ColorAutoComplete()
 		{
-			return null;
+			return new string[]
+			{
+				"Red",
+				"GravitySensor",
+				"Blue"
+			};
 		}
 
 		[ConsoleCommand]
 		private static void ChangeText([Autocomplete(typeof(BallGameGeneralCommandHandlers), "TextAutoComplete")] string text)
 		{
+			Debug.Log("ChangeText executed: " + text);
 		}
 
 		public static IEnumerable<string> TextAutoComplete()
 		{
-			return null;
+			return new string[]
+			{
+				"This",
+				"Is",
+				"Text"
+			};
 		}
 	}
 }

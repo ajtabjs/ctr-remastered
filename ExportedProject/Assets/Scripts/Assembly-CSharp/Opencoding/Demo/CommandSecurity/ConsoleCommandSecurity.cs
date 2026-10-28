@@ -5,9 +5,9 @@ namespace Opencoding.Demo.CommandSecurity
 {
 	public class ConsoleCommandSecurity : MonoBehaviour
 	{
-		private bool _authenticated;
+		internal bool _authenticated;
 
-		private CommandSecurityPopup _commandSecurityPopup;
+		internal CommandSecurityPopup _commandSecurityPopup;
 
 		public const string PASSWORD = "password";
 
@@ -15,19 +15,44 @@ namespace Opencoding.Demo.CommandSecurity
 
 		private void Awake()
 		{
+			CommandHandlers.BeforeCommandExecutedHook += BeforeCommandExecuted;
+			Object.DontDestroyOnLoad(gameObject);
+			if (_SavePassword && PlayerPrefs.GetString("Opencoding.Console.ConsoleCommandSecurity.Password") == "password")
+			{
+				_authenticated = true;
+			}
 		}
 
 		private void OnGUI()
 		{
+			if (_commandSecurityPopup != null)
+			{
+				_commandSecurityPopup.OnGUI();
+			}
 		}
 
 		private bool BeforeCommandExecuted(CommandHandler commandHandler, string[] strings)
 		{
-			return false;
+			if (_authenticated)
+			{
+				return true;
+			}
+			if (commandHandler.MemberInfo.GetCustomAttributes(typeof(SecureCommandHandlerAttribute), false).Length != 0)
+			{
+				if (_commandSecurityPopup != null)
+				{
+					return false;
+				}
+				_commandSecurityPopup = new CommandSecurityPopup(this, commandHandler, strings);
+				return false;
+			}
+			return true;
 		}
 
 		public void PopupClosed(bool authenticated)
 		{
+			_commandSecurityPopup = null;
+			_authenticated = authenticated;
 		}
 	}
 }

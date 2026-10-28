@@ -1,72 +1,10 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Runtime.CompilerServices;
 using UnityEngine;
 
 namespace Opencoding.Console.Demo
 {
 	internal class BallSpawner : MonoBehaviour
 	{
-		[CompilerGenerated]
-		private sealed class _003CSpawnBallCoroutine_003Ed__5 : IEnumerator<object>, IEnumerator, IDisposable
-		{
-			private int _003C_003E1__state;
-
-			private object _003C_003E2__current;
-
-			public BallSpawner _003C_003E4__this;
-
-			public int count;
-
-			private int _003Ci_003E5__2;
-
-			object IEnumerator<object>.Current
-			{
-				[DebuggerHidden]
-				get
-				{
-					return null;
-				}
-			}
-
-			object IEnumerator.Current
-			{
-				[DebuggerHidden]
-				get
-				{
-					return null;
-				}
-			}
-
-			[DebuggerHidden]
-			public _003CSpawnBallCoroutine_003Ed__5(int _003C_003E1__state)
-			{
-			}
-
-			[DebuggerHidden]
-			void IDisposable.Dispose()
-			{
-			}
-
-			private bool MoveNext()
-			{
-				return false;
-			}
-
-			bool IEnumerator.MoveNext()
-			{
-				//ILSpy generated this explicit interface implementation from .override directive in MoveNext
-				return this.MoveNext();
-			}
-
-			[DebuggerHidden]
-			void IEnumerator.Reset()
-			{
-			}
-		}
-
 		private GameObject _ballPrefab;
 
 		private BallGameController _ballGameController;
@@ -76,20 +14,35 @@ namespace Opencoding.Console.Demo
 
 		private void Awake()
 		{
+			float orthographicSize = Camera.main.orthographicSize;
+			float aspect = Camera.main.aspect;
+			Vector3 position = transform.position;
+			float num = orthographicSize * aspect;
+			position.x = num * 2f * _xFraction - num;
+			transform.position = position;
 		}
 
 		public void SpawnBalls(int count)
 		{
+			StartCoroutine(SpawnBallCoroutine(count));
 		}
 
-		[IteratorStateMachine(typeof(_003CSpawnBallCoroutine_003Ed__5))]
 		private IEnumerator SpawnBallCoroutine(int count)
 		{
-			return null;
+			for (int i = 0; i < count; i++)
+			{
+				GameObject gameObject = Object.Instantiate(_ballPrefab, transform.position, Quaternion.identity);
+				gameObject.GetComponent<DemoBall>().Setup(_ballGameController);
+				gameObject.SetActive(true);
+				gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(Random.Range(-3, 3), Random.Range(-2, -4));
+				yield return new WaitForSeconds(0.1f);
+			}
 		}
 
 		public void Setup(BallGameController ballGameController, GameObject ballPrefab)
 		{
+			_ballGameController = ballGameController;
+			_ballPrefab = ballPrefab;
 		}
 	}
 }

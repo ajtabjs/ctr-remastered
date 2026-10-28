@@ -12,10 +12,12 @@ namespace Paladin.SafeAreaPlugin
 
 		private void Awake()
 		{
+			image = GetComponent<Image>();
 		}
 
 		private void Update()
 		{
+			image.enabled = (float)Screen.width / (float)Screen.height < 0.47f;
 		}
 	}
 }
